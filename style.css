@@ -1,0 +1,130 @@
+/* style reset */
+
+*	{ margin : 0px ; box-sizing : border-box ; }
+
+
+
+/* Structure of web page */
+body { background : lightgray;  }
+
+/* gaps between articles */ 
+article {margin-top:  0px; }   
+
+
+/*  wrapper to center browser */ 
+div#container {
+	width : 70%;
+	margin : auto;
+	background-color: white;
+	color : black; 
+	border : 3px dashed white ;}
+	
+
+/* main text style  */ 	
+main { 
+
+	padding : 10px ;
+	color : black;	
+	border : 2px  black ;  }
+
+
+/* banner colour and text size */ 
+h1 {
+	padding : 10px ;
+	border-bottom : 2px solid white ; 
+	background : darkslateblue; 
+	color : white;
+	text-align : left;
+	font-family : Arial, Helvetica, sans-serif
+}
+
+/* menu css */
+nav {
+	height : 50px; 
+	padding : 10px; 
+	border-bottom : 2px solid black ;
+	background : darkslateblue; 
+	color : white; 
+	}
+
+/* footer css */ 
+footer{ 
+	clear : both ; 
+	padding : 10px; 
+	border : 2px solid black ;
+	background : darkslateblue; 
+	color : white;  
+	}
+
+
+
+/* list css */ 
+main ul { 
+	list-style-type: square;
+	padding-left: 20px;
+	}
+
+main ul li {
+	text-align: left;
+}
+
+
+/* font rules */ 
+header {font-family : "Times New Roman", cursive ; font-size: 16px; text-align :left;}
+nav {font-family : "Times New Roman", cursive ; font-size: 16px; text-align :left;}
+main {font-family : "Times New Roman", cursive ; font-size: 16px; text-align :left;}
+footer{font-family : "Times New Roman", cursive ; font-size: 16px; text-align :left;}
+
+main h1, h2, h3, h4, p { text-align :left; }
+
+
+
+/* hyperlink css */ 
+footer a {text-decoration: none; font-weight: bold;}
+nav a {text-decoration: none; font-weight: bold;}
+
+footer a:link, a:hover, a:active { color: white; }
+footer a:visited { color: lightgrey; }
+
+nav a:link, a:hover, a:active { color: white; }
+nav a:visited { color: lightgrey; }
+
+main a:link, a:active { color: black; }
+main a:hover {color: blue;}
+main a:visited { color: grey; }
+
+
+
+/* nav css */
+nav ul { list-style-type : none ; margin : 0 ; padding : 0 ;  overflow : hidden ; }
+
+nav li a { 
+	display : block ; 
+	text-align : left ; 
+	text-decoration : none ; 
+	color : green ; 
+	padding : 10px ; 
+	float : left ; }
+
+nav li a:current { background : DarkSlateBlue ; }
+nav li a:hover { background : DodgerBlue ; color : White ; }
+
+
+
+
+
+
+/* Image css */
+#imgFloatRight1 {float: right; margin: 0px 15px 15px 15px;}
+
+
+
+/* Table css */ 
+
+.caption {
+	font-family : 'Times New Roman', Times, serif ; 
+	font-size: 16px; 
+	text-align :centre;
+	font-weight:bold;
+}
+td { font-size: 16px }
